@@ -1,0 +1,7 @@
+#lang planet neil/sicp
+;a^b
+(define (exp a b)
+  (if (= b 0) 1
+ (* a (exp a (- b 1)))     
+  )
+)

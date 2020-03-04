@@ -1,0 +1,16 @@
+<! doctype html>
+<html>
+<head>
+<title>the date</title>
+</head>
+<body>
+<p id="dateField">&nbsp;</p>
+<script type="text/javascript">
+var myDate=new Date();
+var dateString=myDate.toLocaleDateString()+" "+myDate.toLocaleTimeString();
+var dateLoc=document.getElementById("dateField");
+dateLoc.innerHTML="Hello this page was rendered on "+dateString;
+alert("check it out!");
+</script>
+</body>
+</html>

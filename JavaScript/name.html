@@ -1,0 +1,22 @@
+<! doctype html>
+<html>
+<head><title>Header</title>
+<script type="text/javascript">
+function alertName(){
+var name=document.forms[0].nametext.value;
+for(var i=0; i<10; ++i){
+alert(name+" is such as weird name!");
+}
+}
+</script>
+</head>
+<body>
+<form id="myform" action="#" onsubmit="return alertName();">
+<p>What's your name lad? <input id="nametext" name=username" type="text" />
+</p>
+<p>
+<input type="submit"/>
+</p>
+</form>
+</body>
+</html>
