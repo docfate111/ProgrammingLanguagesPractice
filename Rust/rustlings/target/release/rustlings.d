@@ -1,1 +1,0 @@
-/Users/thelshell/Documents/Code/rustlings/target/release/rustlings: /Users/thelshell/Documents/Code/rustlings/src/exercise.rs /Users/thelshell/Documents/Code/rustlings/src/main.rs /Users/thelshell/Documents/Code/rustlings/src/run.rs /Users/thelshell/Documents/Code/rustlings/src/ui.rs /Users/thelshell/Documents/Code/rustlings/src/verify.rs
